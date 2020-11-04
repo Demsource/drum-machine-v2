@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background-color: #12CBC4;
+    height: 100vh;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5758BB;
+    margin: 1rem 0 3rem 0;
+    text-align: center;
+    text-shadow: .09rem .09rem #555;
+}
+#display {
+    color: #1289A7;
+    font-family: 'Itim', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: .05rem .05rem #ddd;
+    margin: 2rem 0;
+}
+.drum {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.drum-pad {
+    background-color: #5758BB;
+    border: 0.5rem solid #1289A7;
+    border-radius: 10rem;
+    color: #12CBC4;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    height: 5rem;
+    line-height: 5rem;
+    margin: 1%;
+    text-align: center;
+    width: 25%;
+}
+@media only screen and (max-width: 450px) {
+    .drum-pad {
+        border-radius: 100%;
+    }
+  }
+.drum-pad:hover {
+    background-color: #1289A7;
+}
+.drum-play {
+    box-shadow: 5px 5px 20px #5758BB;
+    background-color: #1289A7;
+    color: #5758BB;
+}
