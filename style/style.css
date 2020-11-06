@@ -20,6 +20,7 @@ h1 {
     text-align: center;
     text-shadow: .05rem .05rem #ddd;
     margin: 2rem 0;
+    padding: 0 10%;
 }
 .drum {
     display: flex;
